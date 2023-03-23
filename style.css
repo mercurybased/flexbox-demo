@@ -1,3 +1,25 @@
 body {
-    background: linear-gradient coral green;
+    min-height:100vh;
+    background: linear-gradient(coral, green);
+}
+
+main {
+    height:80vh;
+    border:1px black;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+section {
+    background: orange;
+    border: 1px black;
+    flex-basis: 200px;
+    flex-grow:1;
+    flex-shrink:0;
+    
+}
+
+#special {
+    background-color: cornflowerblue;
+
 }
